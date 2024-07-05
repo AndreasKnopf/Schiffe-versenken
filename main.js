@@ -2,7 +2,6 @@ import rls from "readline-sync";
 
 const grafik1 = `
 
-
 $$$$$$\\             $$\\       $$\\  $$$$$$\\   $$$$$$\\                                                                              $$\\                           
 $$  __$$\\           $$ |      \\__|$$  __$$\\ $$  __$$\\                                                                             $$ |                          
 $$ /  \\__| $$$$$$$\\ $$$$$$$\\  $$\\ $$ /  \\__|$$ /  \\__|$$$$$$\\        $$\\    $$\\  $$$$$$\\   $$$$$$\\   $$$$$$$\\  $$$$$$\\  $$$$$$$\\  $$ |  $$\\  $$$$$$\\  $$$$$$$\\  
@@ -174,7 +173,7 @@ function startGame(playerName) {
     placeShip(hiddenGameArea);
 
     console.clear();
-    console.log(`\n${grafik1}\n\nSuper! Lass uns anfangen.\n\n\n\n${convertToString(gameArea)}\n`);
+    console.log(`${grafik1}\n\nSuper! Lass uns anfangen.\n\n\n\n${convertToString(gameArea)}\n`);
 
 
     // Interaktion mit Usereingaben
@@ -191,14 +190,14 @@ function startGame(playerName) {
         console.clear();
 
         if (result === `hit`) {
-            console.log(`\n${grafik1}\n\nTreffer!\nWeiter so. Du erhälst einen Punkt.\n`);
+            console.log(`${grafik1}\n\nTreffer!\nWeiter so. Du erhälst einen Punkt.\n`);
             hits++;
         } else if (result === `miss`) {
-            console.log(`\n${grafik1}\n\nFehlschuss! Leider kein Treffer.\n\n`);
+            console.log(`${grafik1}\n\nFehlschuss! Leider kein Treffer.\n\n`);
         } else if (result === `already`) {
-            console.log(`\n${grafik1}\n\nDieses Feld hast du bereits getroffen!\n\n`);
+            console.log(`${grafik1}\n\nDieses Feld hast du bereits getroffen!\n\n`);
         } else {
-            console.log(`\n${grafik1}\n\nUngültige Koordinate! Versuche es erneut.\n\n`);
+            console.log(`${grafik1}\n\nUngültige Koordinate! Versuche es erneut.\n\n`);
         }
         console.log(`\n${convertToString(gameArea)}\n`);
         // console.log(`\nAktueller Stand:\n\n${convertToString(hiddenGameArea)}\n`); // Dies dient nur zur Überprüfung!!!
@@ -225,7 +224,7 @@ function startGame(playerName) {
         Deine Punktzahl beträgt: ${score}      
 +++++++++++++++++++++++++++++++++++++++++++++++
 `);
-        console.log(`\n\nDie Auflösung: \n\n${convertToString(hiddenGameArea)}`);
+        console.log(`\nDie Auflösung: \n\n${convertToString(hiddenGameArea)}`);
     }
     return score;
 };
@@ -261,7 +260,7 @@ while(true) {
 Vielen Dank fürs Spielen, ${playerName}!
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++
-    Deine Gesamtpunktzahl beträgt: ${totalScore}.      
+    Deine Gesamtpunktzahl beträgt: ${totalScore}      
 ++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Auf Wiedersehen!\n\n`);
