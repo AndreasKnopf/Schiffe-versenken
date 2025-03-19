@@ -33,15 +33,15 @@ Für jedes getroffene Schiffssegment wird ein Punkt erzielt. Wenn alle Schiffe v
 
 ## Installation & Start
 
-1. Repository klonen. 
+1. <u>Repository klonen:</u> 
    Stelle sicher, dass du das Repository auf deinen Computer geklont hast.
-2. Terminal öffnen
+2. <u>Terminal öffnen:</u>
    Öffne dein Terminal und wechsle in den Ordner des Spiels.
-3. Pakete installieren
+3. <u>Pakete installieren:</u>
    Führe `npm install` aus, um notwendige Pakete zu installieren.
-4. Spiel starten
+4. <u>Spiel starten:</u>
    Führe das Spiel mit dem Befehl `npm start` aus.
-5. Spiel beenden
+5. <u>Spiel beenden:</u>
    Um das Spiel vorzeitig zu beenden, drücke im Terminal `Strg + C`.
 
 ## Über mich
