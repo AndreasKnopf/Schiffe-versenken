@@ -1,3 +1,32 @@
+```
+$$$$$$\             $$\       $$\  $$$$$$\   $$$$$$\                                                                              $$\
+$$  __$$\           $$ |      \__|$$  __$$\ $$  __$$\                                                                             $$ |
+$$ /  \__| $$$$$$$\ $$$$$$$\  $$\ $$ /  \__|$$ /  \__|$$$$$$\        $$\    $$\  $$$$$$\   $$$$$$\   $$$$$$$\  $$$$$$\  $$$$$$$\  $$ |  $$\  $$$$$$\  $$$$$$$\
+\$$$$$$\  $$  _____|$$  __$$\ $$ |$$$$\     $$$$\    $$  __$$\       \$$\  $$  |$$  __$$\ $$  __$$\ $$  _____|$$  __$$\ $$  __$$\ $$ | $$  |$$  __$$\ $$  __$$\
+\____$$\ $$ /       $$ |  $$ |$$ |$$  _|    $$  _|   $$$$$$$$ |       \$$\$$  / $$$$$$$$ |$$ |  \__|\$$$$$$\  $$$$$$$$ |$$ |  $$ |$$$$$$  / $$$$$$$$ |$$ |  $$ |
+$$\   $$ |$$ |      $$ |  $$ |$$ |$$ |      $$ |     $$   ____|        \$$$  /  $$   ____|$$ |       \____$$\ $$   ____|$$ |  $$ |$$  _$$<  $$   ____|$$ |  $$ |
+\$$$$$$  |\$$$$$$$\ $$ |  $$ |$$ |$$ |      $$ |     \$$$$$$$\          \$  /   \$$$$$$$\ $$ |      $$$$$$$  |\$$$$$$$\ $$ |  $$ |$$ | \$$\ \$$$$$$$\ $$ |  $$ |
+\______/  \_______| \__|  \__|\__|\__|      \__|      \_______|          \_/     \_______|\__|      \_______/  \_______|\__|  \__|\__|  \__| \_______|\__|  \__|
+
+
+
+****************************************************************************************************************************************************************
+*                                                                                                                                                              *
+*                                                                                                                                                              *
+*                                                                                         | _.-.___/)                                                          *
+*                                                                                         +[__===_==/                                                          *
+*                                                                                         |                                                        _\/_        *
+*                    __/___                                                                . '                                                     //o\   _\/_ *
+*              _____/______|                                                             -                                                           |    /o\\ *
+*      _______/_____\_______\_____                                         <--=   . . '                                                         ,---'|"'"-"-|-,*
+*      \              < < <       |                                                                                                            /            |  *
+*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+*   ~    ~          ~     ~     ~        ~ ~ ~    ~     ~       ~~          ~      ~ ~                 ~  ~            ~             ~  ~   ~  ~   ~~ ~      ~ *
+*     ~ ~  ~    ~     ~      ~ ~  ~       ~           ~    ~   ~       ~ ~            ~    ~  ~           ~   ~  ~    ~  ~     ~   ~  ~          ~   ~    ~ ~  *
+*         ~ ~ ~           ~~             ~  ~    ~          ~             ~    ~ ~                 ~           ~          ~           ~       ~~        ~      *
+****************************************************************************************************************************************************************
+```
+
 # Miniprojekt zum Abschluss des Moduls "Programming Basics"
 
 ## Ziel des Projektes
@@ -9,6 +38,8 @@ Dieses kleine Projekt bietet eine Gelegenheit, grundlegende Funktionen von JavaS
 Schiffe versenken - Der Spieler versucht, auf einem Spielfeld versteckte Schiffe zu versenken, indem er gezielt Koordinaten angibt. Für jedes versenkte Schiff gibt es Punkte, aber Vorsicht: Jeder Fehlschuss und jede falsche Eingabe kosten Versuche!
 
 ## Spielablauf
+
+<img src="./assets/SchiffeVersenken.jpg" alt="Screenshot Spielablauf Schiffe versenken">
 
 #### Spielstart
 
@@ -31,7 +62,7 @@ Für jedes getroffene Schiffssegment wird ein Punkt erzielt. Wenn alle Schiffe v
 
 ## Installation & Start
 
-1. Repository klonen
+1. Repository klonen. 
    Stelle sicher, dass du das Repository auf deinen Computer geklont hast.
 2. Terminal öffnen
    Öffne dein Terminal und wechsle in den Ordner des Spiels.
